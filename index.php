@@ -5,7 +5,10 @@ include_once("./templates/header.php");
   <?php if (isset($printMsg) && $printMsg != '') : ?>
     <p id="msg"><?= $printMsg ?></p>
   <?php endif; ?>
-  <h1 id="main-title">Agenda de Fornecedores</h1>
+  <div class="title">
+    <img src="<?= $BASE_URL ?>/img/logo.svg" alt="Agenda">
+    <h1 id="main-title-home">Contados dos Fornecedores</h1>
+  </div>
   <?php if (count($contacts) > 0) : ?>
     <table class="table" id="contacts-table">
       <thead>

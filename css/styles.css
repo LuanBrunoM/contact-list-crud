@@ -1,17 +1,25 @@
-.navbar-brand img {
+img {
   width: 50px;
 }
 
-#main-title {
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#main-title-home {
   text-align: center;
   margin: 15px 0 30px;
+  padding-top: 25px;
 }
 
 .navbar-nav .nav-link {
-  background-color: #0842A3;
-  border: 2px solid #0842A3;
+  background-color: #0842a3;
+  border: 2px solid #0842a3;
   border-radius: 6px;
-  margin-right: 5px;
+  margin: 10px 5px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -27,7 +35,7 @@
 
 #contacts-table thead tr th{
   color: #fff;
-  background-color: #007BFF;
+  background-color: #007bff;
 }
 
 .col-id {
@@ -80,4 +88,27 @@
 
 .bold {
   font-weight: bold;
+}
+
+/* CREATE PAGE */
+
+.title .edit-icon {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+#main-title-create {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+.container form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container form button {
+  max-width: 100px;
 }
