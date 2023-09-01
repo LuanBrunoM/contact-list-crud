@@ -53,6 +53,11 @@ img {
 
 .edit-icon {
   color: #007bff;
+  padding-right: 4px;
+}
+
+.delete-form {
+  float: right;
 }
 
 .delete-btn {
